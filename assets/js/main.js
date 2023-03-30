@@ -15,7 +15,7 @@ let listSpesa = [
 
 let i = 0;
 
-while (i < 6) {
+while (i < listSpesa.length) {
     
     ulElement.innerHTML+= `
     <li>${listSpesa[i]}</li>
